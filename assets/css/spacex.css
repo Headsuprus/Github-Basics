@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Raleway;
-	src: url(../font/Raleway-Bold.ttf);
+	src: url(../font/Raleway-SemiBold.ttf);
 }
 
 /* Mobile */
@@ -8,10 +8,12 @@
   header {
 	display: flex;
 	justify-content: center;
+	background-color: #000000;
   }
   
   header img {
-	  
+	width: 240px;
+    height: 100px;
   }
   
   main {
@@ -21,20 +23,29 @@
   }
   
   .title-info {
-	text-transform: uppercase;
+	color: #707070;
 	font-size: 24px;
+	text-transform: uppercase;
 	padding: 15px;
 	font-family: Raleway;
   }
   
   footer {
 	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	height: 80px;
-	background-color: #efefef;
-	text-align: center;
-	background-color: black;
+	background-color: ;
+	border: 1px solid black;
+  }
+  
+  footer img {
+	width: 42px;
+	height: 42px;
+	margin: 10px;
   }
 }
